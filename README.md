@@ -1,13 +1,33 @@
 LAN Chat Application
 
-A Java-based LAN Chat Application that facilitates real-time communication among users connected to the same local network. Designed with a simple yet functional GUI, this application is perfect for understanding basic client-server architecture and network programming concepts in Java.
- Features
-    Real-Time Communication: Exchange messages instantly within the same LAN.
-    User Tracking: Automatically detects and displays online users.
-    Intuitive Interface: Easy-to-use GUI with separate panels for the chat window, user input, and active users list.
-    Lightweight and Efficient: Minimal resource usage and no external dependencies.
-    Multi-User Support: Allows multiple clients to connect and communicate simultaneously.
-    Requirements
-    Java Development Kit (JDK): Version 8 or higher
-    Java Swing: For GUI rendering
-    Network: Devices must be connected to the same local area network (LAN).
+A simple yet powerful Java-based real-time messaging application that facilitates communication within a Local Area Network (LAN). This project demonstrates the use of socket programming, multi-threading, and a graphical user interface (GUI) built using Java Swing.
+🛠️ Features
+
+    Real-Time Chat: Instantly send and receive messages with users in the same network.
+    Dynamic User List: Displays all currently active users in real-time.
+    User-Friendly Interface: Intuitive design with separate sections for the chat window, user input, and online users.
+    Scalability: Supports multiple clients connected simultaneously to the same server.
+    Lightweight & Portable: Written in pure Java; requires no additional dependencies.
+
+📸 Screenshot
+
+📂 Project Structure
+
+LAN-Chat-App/
+├── Server.java       # Manages client connections and broadcasts messages
+├── Client.java       # Handles the GUI and communication with the server
+├── build.xml         # Build script for automating compilation and packaging
+├── lan-chat-app.iml  # IDE configuration file
+├── lanchatapp.jpeg   # Screenshot of the application
+
+⚙️ Technologies Used
+
+    Java Socket Programming: For real-time communication between the server and clients.
+    Java Swing: To build the graphical user interface (GUI).
+    Multi-threading: To handle multiple clients simultaneously.
+
+🚀 Getting Started
+Prerequisites
+
+    Java JDK 8 (or higher) installed on all machines.
+    All devices must be connected to the same Local Area Network (LAN).
